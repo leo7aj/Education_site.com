@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+    <link rel="stylesheet" href="mediaquerry.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <nav>
+        <img href="index.htm" src="img/logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-circle-xmark"></i>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about.htm">About</a></li>
+                <li><a class="active" href="blog.htm">Blog</a></li>
+                <li><a href="courses.htm">Courses</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+            <img src="img/menu-btn.png" id="menu-btn" alt="">
+        </div>
+     </nav>
+   
+   
+     <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post ">
+                <img src="img/blog1.jfif" alt="">
+                <h3>Learn Web development In the Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsa cum expedita. In earum distinctio consequuntur placeat quisquam deserunt debitis veniam harum. Obcaecati corrupti eaque eos possimus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae hic dolore ipsa. Alias qui excepturi cupiditate fugiat? Nostrum, cumque ex. quae in nesciunt.
+                    <br><br>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nihil sit optio ut ipsa consectetur libero porro, eos quia earum in, accusantium explicabo adipisci non! Vitae quas provident fugit ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde doloremque in officia itaque repudiandae, quia nesciunt qui quibusdam iste! Vel minima obcaecati, laboriosam nulla dignissimos aspernatur aperiam id labore?
+                   <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eaque velit temporibus debitis ad veritatis adipisci eveniet molestiae veniam id omnis quae cum soluta sed similique voluptatibus obcaecati, dolore architecto quo distinctio officiis amet nobis maiores. Fugit deleniti totam eos soluta saepe magni velit recusandae, earum dolores sed ipsa distinctio culpa sunt numquam tempora sapiente ad esse dignissimos molestiae ipsam ducimus exercitationem! Ut, fugiat quod quas magnam suscipit sapiente, dolore sit eaque voluptates repellendus minus ea sint deserunt atque harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus aliquam maxime laboriosam possimus consequuntur consectetur ipsam? Quis quas enim pariatur quaerat fuga facere, repellendus voluptate provident corrupti, officiis nemo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci officia nostrum quaerat rem itaque, debitis, officiis repellendus omnis repellat numquam minima neque velit consequuntur sapiente odio nisi! Reiciendis, labore! Recusandae?
+                   <br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dignissimos possimus aperiam accusamus commodi quidem aspernatur vitae, ea quis dolorem incidunt nam velit. Iusto veritatis quaerat itaque. Facere reiciendis necessitatibus, libero magnam fugiat quae autem cumque perspiciatis! Ullam totam dignissimos dolore molestiae atque sint iure ipsam, incidunt corporis harum perspiciatis esse facilis ipsum in ad cupiditate eum corrupti. Tempora ea ipsam, ratione totam doloremque veniam praesentium tenetur. Accusantium quasi beatae dignissimos voluptatibus laboriosam aut facere. Quos eligendi neque quisquam aut animi harum in ipsum necessitatibus corrupti rerum! Facilis nihil nulla ratione vitae dolorem omnis distinctio repudiandae architecto beatae nostrum ipsum quos corporis ducimus eligendi officia rerum, tenetur quod recusandae accusantium repellendus voluptates mollitia odit? Dolor fuga animi pariatur voluptatibus quae?
+                </p>
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of service</li>
+            
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed website</li>
+            <li>Marketing Service</li>
+           
+        </div>
+        <div class="footer-col">
+            <h3>Guides</h3>
+            <li>Experts</li>
+            <li>Research</li>
+            <li>Marketing Service</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send you promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023 All rights reserve | This template is made by Ajay Bhatt</p>
+            <div class="pro-links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+     </footer>
+</body>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    })
+</script>
+
+</html>
